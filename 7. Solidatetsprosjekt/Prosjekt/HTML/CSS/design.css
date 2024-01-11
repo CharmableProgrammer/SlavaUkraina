@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: darkgray;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-bilde {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+    height: 160px;
+}
+
+
+h1 {
+    margin: 0
+}
+
+.burger-menu {
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 12rem;
+    width: 100%;
+    background-color: #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.nav-container.show {
+    display: flex;
+}
+.p1 {
+    text-align: center;
+    font-size: 20px;
+}
+.ph1 {
+    font-size: 48px;
+}
+b {
+    font-size: 18px;
+}
+.p2{
+    font-size: 20px;
+    text-align: center;
+}
+.bilde1{
+    text-align: left;
+    height: 400px;
+    width: 400px;
+}
+.bilde2{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+.bilde3{
+    text-align: right;
+    height: 400px;
+    width: 400px;
+}
